@@ -56,7 +56,7 @@ public class Student1 {
 
 		// member function(method) 멤버 펑션(메서드)
 		// 한정자 - 리턴타입 - 메서드이름(패러미터){	}
-		// public - 한정자. 누구나 접근가능하구나
+		// public - 한정자. 누구나 접근가능하다
 		// void - 리턴타입이 딱히 없다
 		// showStudentInfo() { - 메서드 이름
 		public void showStudentInfo( ) {
