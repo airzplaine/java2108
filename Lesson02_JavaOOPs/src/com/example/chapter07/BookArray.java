@@ -9,7 +9,7 @@ public class BookArray {
 		library[1] = new Book("1234", "567");
 		library[2] = new Book("아무것도", "아니다");
 		library[3] = new Book("케인인님", "한판해요");
-		library[4] = new Book("뭉탱이", "유링게슝");
+		library[4] = new Book("뭉탱이", "유링게숭");
 		
 		for(int i = 0; i < library.length; i++) {
 			library[i].showBookInfo();
