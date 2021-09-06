@@ -17,12 +17,17 @@ public class KoreaMart {
 		customerKain.setBonusPoint(1000);
 		System.out.println(customerKain.showCustomerInfo());
 		
+		Customer customerYu = new GoldCustomer(3001, "À¯¸µ°Ô¼þ");
+		customerYu.setBonusPoint(1000);
+		System.out.println(customerYu.showCustomerInfo());
 		
 		System.out.println(customerMoong.calcPrice(10000));
 		System.out.println(customerKain.calcPrice(10000));
+		System.out.println(customerYu.calcPrice(10000));
 		
 		System.out.println(customerMoong.showCustomerInfo());
 		System.out.println(customerKain.showCustomerInfo());
+		System.out.println(customerYu.showCustomerInfo());
 		
 		
 

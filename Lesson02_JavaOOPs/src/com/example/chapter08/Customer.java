@@ -12,7 +12,10 @@ public class Customer {
 		bonusRatio = 0.01;
 	}
 	
-	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+	}
 	
 	public int getCustomerID() {
 		return customerID;
